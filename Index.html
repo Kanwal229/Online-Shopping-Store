@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple Shopping Cart</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="logo-title">
+    <img src="images/Buynest logo.png" alt="BuyNest Logo" class="logo">
+    <h1 class="site-title">BuyNest</h1>
+  </div>
+  <div class="auth-buttons">
+    <a href="login.html" class="btn login-btn">Login</a>
+    <a href="signup.html" class="btn signup-btn">Sign Up</a>
+  </div>
+</header>
+
+
+   <!-- <h1>BuyNest</h1> -->
+   <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Search products..." />
+  </div>
+ <!-- <header class="site-header">
+    <img src="images/Buynest logo.png" alt="BuyNest Logo" class="logo">
+</header> -->
+  <div class="products">
+    <!-- Product items will be injected here -->
+  </div>
+
+  <h2>Cart</h2>
+  <div class="cart">
+    <ul class="cart-items"></ul>
+    <p<p>Total: $<span class="total">0.00</span></p>
+    <button id="checkout">Checkout</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
